@@ -3,7 +3,7 @@ import hashlib
 import threading
 import logging
 
-s=socket.socket(socket.AF_INET,socket.SOCK_RAW)
+s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 x=hashlib.sha512(b"audsooisfiojsdiojfsodijfiojsdoifisojfodsjfijdsijifjsiojfiosjfiojsdijfsoijfiojsijfiosj i was here sfoijfosjdfijdsoifisodjfio")
 
